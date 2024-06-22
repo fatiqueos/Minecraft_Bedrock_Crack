@@ -6,6 +6,7 @@ Bu .bat dosyası, Minecraft for Windows oyununu ücretsiz oynamanızı sağlar v
 
 1. **Yönetici Olarak Çalıştırın**
    - Dosyaya sağ tıklayıp "Yönetici olarak çalıştır" seçeneğini seçin.
+   - Eğer işe yaramaz ise Klasöre sağ tıklayıp "Take Ownership" seçeneğini seçin ve yeniden deneyin.
 
 2. **Seçenekler**
    - Script çalıştırıldığında aşağıdaki seçenekler menüsü gösterilir:
