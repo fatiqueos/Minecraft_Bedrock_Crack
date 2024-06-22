@@ -2,6 +2,13 @@
 chcp 65001 > nul
 setlocal enabledelayedexpansion
 
+fsutil dirty query %systemdrive% >nul
+if %errorlevel% NEQ 0 (
+    echo ERROR - Run .bat file as Administrator
+    pause
+    exit /b
+)
+
 if "%PROCESSOR_ARCHITECTURE%"=="AMD64" (
     set "arch=64bits"
 ) else (
