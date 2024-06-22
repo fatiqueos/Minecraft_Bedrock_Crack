@@ -22,5 +22,4 @@ Bu script, sistem dosyalarını değiştirir ve yasadışıdır.
 Alma durumunuz varsa oyunun resmi bir sürümünü satın almanız önerilir.
 
 ## İletişim
-Herhangi bir sorunla karşılaşırsanız veya ek destek ihtiyacınız olursa bana aşağıdaki Telegram hesabımdan ulaşabilirsiniz:
-- Telegram: [t.me/fatiqueos](https://t.me/fatiqueos)
+Herhangi bir sorunla karşılaşırsanız veya ek destek ihtiyacınız olursa bana [Telegram](https://t.me/fatiqueos) adresim üzerinden ulaşabilirsiniz.
