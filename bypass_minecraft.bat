@@ -2,9 +2,9 @@
 chcp 65001 > nul
 setlocal enabledelayedexpansion
 
-fsutil dirty query %systemdrive% >nul
+fsutil dirty query %systemdrive% > nul
 if %errorlevel% NEQ 0 (
-    echo ERROR - Run .bat file as Administrator
+    echo HATA - .bat dosyasını Yönetici olarak çalıştırın
     pause
     exit /b
 )
@@ -18,26 +18,26 @@ if "%PROCESSOR_ARCHITECTURE%"=="AMD64" (
 :menu
 cls
 echo --------------------------------------------------------
-echo                 Minecraft for Windows
+echo                 Windows için Minecraft
 echo --------------------------------------------------------
-echo Please select an option:
-echo 1. Unlock All Game Minecraft for Windows
-echo 2. Install Minecraft for Windows
+echo Lütfen bir seçenek seçin:
+echo 1. Tüm Oyunun Kilidini Aç
+echo 2. Minecraft'ı Windows'a Yükle
 echo --------------------------------------------------------
 
-set /p "choice=Please select an option: "
+set /p "choice=Lütfen bir seçenek seçin: "
 
 if "%choice%"=="1" (
     if exist "%~dp0crack\!arch!.bat" (
-        echo !arch!.bat is being injected...
+        echo !arch!.bat enjekte ediliyor...
         call "%~dp0crack\!arch!.bat"
     ) else (
-        echo %~dp0crack\!arch!.bat file not found.
+        echo %~dp0crack\!arch!.bat dosyası bulunamadı.
     )
 ) else if "%choice%"=="2" (
     start ms-windows-store://pdp/?ProductId=9nblggh2jhxj
 ) else (
-    echo Invalid option. Please enter a valid option.
+    echo Geçersiz seçenek. Lütfen geçerli bir seçenek girin.
 )
 
 pause
