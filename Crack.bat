@@ -2,7 +2,6 @@
 chcp 65001 > nul
 setlocal enabledelayedexpansion
 
-:: Check if the script is running with administrator privileges
 >nul 2>&1 set "Elevated=!errorlevel!"
 
 if not "%Elevated%"=="0" (
@@ -11,7 +10,6 @@ if not "%Elevated%"=="0" (
     exit /b
 )
 
-:: Set the Command Prompt window title
 title https://github.com/fatiqueos
 
 if "%PROCESSOR_ARCHITECTURE%"=="AMD64" (
