@@ -21,6 +21,7 @@ This .bat file lets you play Minecraft for Windows for free and unlocks all game
 
 This script modifies system files and is illegal.
 It is recommended to buy an official version of the game if you can afford it.
+With the sfc /scannow command, the changes can be undone and the game can become paid again.
 
 ## Contact
 If you encounter any problems or need additional support, you can reach me on [Telegram](https://t.me/fatiqueos).
