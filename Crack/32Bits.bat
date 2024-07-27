@@ -1,23 +1,23 @@
 @echo off
 setlocal
 
-set "ruta_iobit_unlocker=%~dp0Borrador\IOBitUnlocker.exe"
-set "comando=%ruta_iobit_unlocker% /delete %1"
-%comando% "%SystemRoot%\System32\Windows.ApplicationModel.Store.dll"
+set "iobit_unlocker_path=%~dp0Draft\IOBitUnlocker.exe"
+set "command=%iobit_unlocker_path% /delete %1"
+%command% "%SystemRoot%\System32\Windows.ApplicationModel.Store.dll"
 
-set "nombre_dll_system32=Windows.ApplicationModel.Store.dll"
-set "directorio_actual=%~dp0"
-set "ruta_destino_system32=%SystemRoot%\System32\"
-copy "%directorio_actual%Crack32\System32\%nombre_dll_system32%" "%ruta_destino_system32%"
+set "dll_name_system32=Windows.ApplicationModel.Store.dll"
+set "current_directory=%~dp0"
+set "destination_path_system32=%SystemRoot%\System32\"
+copy "%current_directory%Crack32\System32\%dll_name_system32%" "%destination_path_system32%"
 
-if exist "%directorio_actual%Borrador\update.ini" (
-    del "%directorio_actual%Borrador\update.ini"
+if exist "%current_directory%Draft\update.ini" (
+    del "%current_directory%Draft\update.ini"
 )
 
-if exist "%directorio_actual%Borrador\IObitUnlocker.log" (
-    del "%directorio_actual%Borrador\IObitUnlocker.log"
+if exist "%current_directory%Draft\IObitUnlocker.log" (
+    del "%current_directory%Draft\IObitUnlocker.log"
 )
 
-echo Bedrock Crackeado también hay servers. Atte: Israel
+echo Bedrock Cracked and there are servers too.
 
 pause
