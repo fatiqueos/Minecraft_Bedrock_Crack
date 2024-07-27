@@ -1,26 +1,26 @@
 # Bypass Minecraft for Windows
 
-Bu .bat dosyası, Minecraft for Windows oyununu ücretsiz oynamanızı sağlar ve tüm oyun kilitlerini açar.
+This .bat file lets you play Minecraft for Windows for free and unlocks all game unlocks.
 
-## Kullanım
+## Usage
 
-1. **Yönetici Olarak Çalıştırın**
-   - Dosyaya sağ tıklayıp "Yönetici olarak çalıştır" seçeneğini seçin.
-   - Eğer işe yaramaz ise Klasöre sağ tıklayıp "Take Ownership" seçeneğini seçin ve yeniden deneyin.
+1. **Run as an Administrator**
+   - Right click on the file and select “Run as administrator”.
+   - If that doesn't work, right click on the folder and select “Take Ownership” and try again.
 
-2. **Seçenekler**
-   - Script çalıştırıldığında aşağıdaki seçenekler menüsü gösterilir:
+2. **Options**
+   - When the script is run, the following menu of options is shown:
      ```
-     1. Tüm Oyunun Kilidini Aç
-     2. Minecraft'ı Windows'a Yükle
+     1. Crack Game
+     2. Install Minecraft Trial (Required)
      ```
-   - **1. Seçenek:** İşlemcinize uygun `crack\32bits.bat` veya `crack\64bits.bat` dosyasını çalıştırarak oyunu ücretsiz hale getirir ve tüm kilitleri açar.
-   - **2. Seçenek:** Minecraft for Windows'u Microsoft Mağazası üzerinden kurar.
+   - Option 1:** Runs the appropriate `Crack\32bits.bat` or `Crack\64bits.bat` file for your processor to free the game and unlock all unlocks.
+   - Option 2:** Installs Minecraft for Windows from the Microsoft Store.
 
-## Uyarı
+## Warning.
 
-Bu script, sistem dosyalarını değiştirir ve yasadışıdır.
-Alma durumunuz varsa oyunun resmi bir sürümünü satın almanız önerilir.
+This script modifies system files and is illegal.
+It is recommended to buy an official version of the game if you can afford it.
 
-## İletişim
-Herhangi bir sorunla karşılaşırsanız veya ek destek ihtiyacınız olursa bana [Telegram](https://t.me/fatiqueos) adresim üzerinden ulaşabilirsiniz.
+## Contact
+If you encounter any problems or need additional support, you can reach me on [Telegram](https://t.me/fatiqueos).
