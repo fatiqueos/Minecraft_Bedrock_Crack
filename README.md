@@ -1,4 +1,4 @@
-# Bypass Minecraft for Windows
+# Minecraft for Windows Crack
 
 This .bat file lets you play Minecraft for Windows for free and unlocks all game unlocks.
 
