@@ -5,8 +5,7 @@ This .bat file lets you play Minecraft for Windows for free and unlocks all game
 ## Usage
 
 1. **Run as an Administrator**
-   - Right click on the file and select “Run as administrator”.
-   - If that doesn't work, right click on the folder and select “Take Ownership” and try again.
+   - Right click on the Crack.bat File and “Run as administrator”.
 
 2. **Options**
    - When the script is run, the following menu of options is shown:
