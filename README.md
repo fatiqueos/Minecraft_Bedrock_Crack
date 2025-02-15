@@ -1,4 +1,4 @@
-# Minecraft for Windows - Full Game Unlocker (Open Source)
+# Minecraft for Windows - Full Game Unlocker
 
 This .bat file lets you play Minecraft for Windows for free and unlocks all game unlocks.
 
